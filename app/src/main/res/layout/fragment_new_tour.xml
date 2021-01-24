@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragments.newTourFragment">
+
+        <EditText
+            android:id="@+id/dateID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Select a date"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="@+id/tourBudgetID"
+            app:layout_constraintStart_toStartOf="@+id/tourBudgetID"
+            app:layout_constraintTop_toBottomOf="@+id/tourBudgetID" />
+
+        <EditText
+            android:id="@+id/tourNameID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="88dp"
+            android:layout_marginEnd="101dp"
+            android:ems="10"
+            android:hint="Tour Name"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/tourBudgetID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Budget"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="@+id/tourDestination"
+            app:layout_constraintStart_toStartOf="@+id/tourDestination"
+            app:layout_constraintTop_toBottomOf="@+id/tourDestination" />
+
+        <EditText
+            android:id="@+id/tourDestination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Destination"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="@+id/tourNameID"
+            app:layout_constraintStart_toStartOf="@+id/tourNameID"
+            app:layout_constraintTop_toBottomOf="@+id/tourNameID" />
+
+        <Button
+            android:id="@+id/toursaveBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_shape"
+            android:text="Create"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dateID"
+            app:layout_constraintVertical_bias="0.496" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

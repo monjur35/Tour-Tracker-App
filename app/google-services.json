@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "113582090997",
+    "firebase_url": "https://dolphin-70ca4.firebaseio.com",
+    "project_id": "dolphin-70ca4",
+    "storage_bucket": "dolphin-70ca4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113582090997:android:7c375882cb09529b40b3bc",
+        "android_client_info": {
+          "package_name": "com.example.blog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "113582090997-dkldbheih4m2llvqbv6bsdvqmnku6j3c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.blog",
+            "certificate_hash": "032009d937df46bcc7bdf3b2bf97b3499e3f9767"
+          }
+        },
+        {
+          "client_id": "113582090997-nlvibhe0vh0u6msv7j9u1u9orl260t5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6-5mqiHt7czQSt88We-25hpoqb6BtFtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "113582090997-nlvibhe0vh0u6msv7j9u1u9orl260t5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113582090997:android:7ce0fcf0245ec07e40b3bc",
+        "android_client_info": {
+          "package_name": "com.example.tourtracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "113582090997-nlvibhe0vh0u6msv7j9u1u9orl260t5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6-5mqiHt7czQSt88We-25hpoqb6BtFtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "113582090997-nlvibhe0vh0u6msv7j9u1u9orl260t5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

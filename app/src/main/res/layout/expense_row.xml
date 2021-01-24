@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/expenservbg"
+    android:padding="3dp"
+    android:elevation="3dp"
+    android:layout_marginBottom="2dp"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableRow>
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Expense :"
+                android:textSize="16sp"
+                android:layout_margin="3dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/expenseTitleId"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                tools:text="Ticket"
+                android:textColor="@color/white"
+                android:layout_margin="3dp" />
+
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Amount :"
+                android:textSize="16sp"
+                android:layout_margin="3dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/amountExpenseId"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                tools:text="10000"
+                android:textColor="@color/white"
+                android:layout_margin="3dp" />
+
+
+        </TableRow>
+
+    </TableLayout>
+
+
+
+
+
+</LinearLayout>

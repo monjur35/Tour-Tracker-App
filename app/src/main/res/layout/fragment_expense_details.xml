@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/assa"
+        android:layout_margin="7dp"
+        android:padding="8dp"
+        android:background="@drawable/gradient_bg"
+        android:orientation="vertical"
+        tools:context=".fragments.ExpenseDetailsFragment">
+
+        <TextView
+            android:background="@color/primary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Expenses"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:gravity="center" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+             />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Total Expense :"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="3dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/totalExpenseTv"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    tools:text="10000"
+                    android:layout_margin="3dp"
+                    android:textColor="@color/black" />
+
+
+            </TableRow>
+
+        </TableLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/expenseRv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+    </LinearLayout>
+</layout>
